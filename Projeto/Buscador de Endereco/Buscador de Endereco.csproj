@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <RootNamespace>Buscador_de_Endereco</RootNamespace>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>Point_Street_ico.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Copy.png" />
+    <None Remove="Point_Street_ico.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Controller\Controller.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Copy.png" />
+    <Resource Include="Point_Street_ico.ico" />
+  </ItemGroup>
+
+</Project>
